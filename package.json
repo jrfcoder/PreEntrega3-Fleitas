@@ -7,8 +7,13 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build-css": "node-sass --include-path scss scss/main.scss style/style2.css",
     "watch-css": "nodemon -e scss -x \"npm run build-css\""
-
   },
+  
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jrfcoder/PreEntrega3-Fleitas.git"
+    },
+  
   "author": "JRF",
   "license": "ISC",
   "devDependencies": {
