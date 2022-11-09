@@ -1,0 +1,92 @@
+.pricipal {
+    background-image: url(../recursos/fondobody.jpg);
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 780px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    @media (max-width: 600px) {
+        background-size: 200%;
+    
+    } 
+
+    .bienvenida {
+        color: beige;
+        letter-spacing: 5px;
+        text-align: center;
+        font-size: 4rem ;
+        animation-duration: 5s;
+        animation-name: slidein ;
+
+        @media (max-width: 600px) {
+            font-size: 3rem;
+        } 
+    }
+        @keyframes slidein {
+            from {
+            margin-left: 100%;
+            }
+    
+            to {
+            margin-right: 0%;
+            }
+        }
+}
+.anuncios { 
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 5%;
+    height: 350px;
+    width: 100%;
+}
+    
+.cards {
+    max-width: 18%;
+    max-height: 110%;
+    border-radius: 10px;
+    box-shadow: 0 3px 3px rgb(177, 177, 174);
+    overflow: hidden;
+    margin: 20px;
+    transition: all 0.25s;
+    min-width: 200px;
+}    
+
+.anuncios {
+    .cards {
+        &:hover {
+            transform: translateY(-15px);
+            box-shadow: 0 10px 15px rgba(0, 0, 0, 2);
+        }
+    }
+}
+
+.cards {
+    & img {
+        padding-top: 18px;
+    }
+}    
+
+.anuncios {
+    .cards {
+        & p {
+        font-size: medium;
+        letter-spacing: 0.5px;
+        }
+    }
+}
+.anuncios {
+    .cards {
+        & a {
+        text-decoration: none;
+        color: #4e4d60;
+        letter-spacing: 0.5px;
+        }
+    }
+}

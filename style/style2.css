@@ -1,0 +1,159 @@
+* {
+  padding: 0px;
+  margin: 0px; }
+
+nav {
+  top: 0;
+  z-index: 2; }
+
+.navbar {
+  background-color: #7a7a7e;
+  position: fixed;
+  width: 100%; }
+
+.nav-link {
+  margin-left: 90px; }
+
+div ul li a:hover {
+  background-color: #5f5f5f; }
+
+.pricipal {
+  background-image: url(../recursos/fondobody.jpg);
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 780px;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover; }
+  @media (max-width: 600px) {
+    .pricipal {
+      background-size: 200%; } }
+  .pricipal .bienvenida {
+    color: beige;
+    letter-spacing: 5px;
+    text-align: center;
+    font-size: 4rem;
+    animation-duration: 5s;
+    animation-name: slidein; }
+    @media (max-width: 600px) {
+      .pricipal .bienvenida {
+        font-size: 3rem; } }
+
+@keyframes slidein {
+  from {
+    margin-left: 100%; }
+  to {
+    margin-right: 0%; } }
+
+.anuncios {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: space-evenly;
+  margin: auto;
+  padding-bottom: 5%;
+  height: 350px;
+  width: 100%; }
+
+.cards {
+  max-width: 18%;
+  max-height: 110%;
+  border-radius: 10px;
+  box-shadow: 0 3px 3px #b1b1ae;
+  overflow: hidden;
+  margin: 20px;
+  transition: all 0.25s;
+  min-width: 200px; }
+
+.anuncios .cards:hover {
+  transform: translateY(-15px);
+  box-shadow: 0 10px 15px black; }
+
+.cards img {
+  padding-top: 18px; }
+
+.anuncios .cards p {
+  font-size: medium;
+  letter-spacing: 0.5px; }
+
+.anuncios .cards a {
+  text-decoration: none;
+  color: #4e4d60;
+  letter-spacing: 0.5px; }
+
+.container {
+  margin-top: 15%; }
+
+.h3-container {
+  text-align: center;
+  padding-top: 10%; }
+
+.cont-misiones {
+  padding-bottom: 10%; }
+
+.img-ministerios {
+  width: 300;
+  height: "180px"; }
+
+.col-sm-4, .texto-vision {
+  text-align: center; }
+
+.col-sm-6 {
+  text-align: center;
+  padding-top: 25px; }
+
+.texto-vision {
+  padding-bottom: 25px; }
+
+.section-transmi {
+  background-color: beige;
+  padding: 20%;
+  padding-left: 25%; }
+  @media (max-width: 600px) {
+    .section-transmi {
+      padding-left: 15%; } }
+
+.imagen-transmi {
+  width: 600px; }
+  @media (max-width: 600px) {
+    .imagen-transmi {
+      width: 350px;
+      padding-top: 40px; } }
+
+footer {
+  background-color: #5d6075;
+  display: flex;
+  box-sizing: border-box;
+  justify-content: space-around;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+  width: 100%;
+  padding-top: 2%;
+  padding-bottom: 2%; }
+
+.formulario {
+  width: 25%;
+  box-sizing: border-box;
+  min-width: 200px; }
+
+form, form input, form textarea {
+  text-transform: uppercase;
+  width: 100%;
+  margin-bottom: 2%;
+  padding: 3%;
+  box-sizing: border-box;
+  background-color: #5d6075;
+  border: solid #848484 1px; }
+
+#button {
+  max-width: 40%;
+  color: #ae5541; }
+
+.mapa {
+  width: 320px;
+  height: 200px; }
+
+.jrfcoder {
+  text-align: center; }

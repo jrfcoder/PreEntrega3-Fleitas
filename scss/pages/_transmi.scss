@@ -1,0 +1,18 @@
+.section-transmi {
+    background-color: beige;
+    padding: 20%;
+    padding-left: 25%;
+    
+    @media (max-width: 600px) {
+        padding-left: 15%;
+    } 
+}
+.imagen-transmi {
+    width: 600px;
+
+    @media (max-width: 600px) {
+        width: 350px;
+        padding-top: 40px;
+    }
+
+}

@@ -1,0 +1,19 @@
+nav {
+    top: 0;
+    z-index: 2;
+}
+.navbar {
+    background-color: $base-navbar;
+    position: fixed;
+    width: 100%;
+}
+
+    .nav-link {
+        margin-left: 90px;
+    }
+    div 
+        ul 
+            li 
+                a:hover {
+        background-color: $hover-navbar;
+    }

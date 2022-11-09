@@ -1,0 +1,8 @@
+.col-sm-6 {
+    text-align: center;
+    padding-top: 25px;
+}
+.texto-vision {
+    @extend .col-sm-4;
+    padding-bottom: 25px;
+}

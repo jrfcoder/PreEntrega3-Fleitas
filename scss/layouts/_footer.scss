@@ -1,0 +1,44 @@
+footer {
+    background-color: $base-footer;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-around;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+    
+.formulario {
+    width: 25%;
+    box-sizing: border-box;
+    min-width: 200px;
+}
+form {
+    text-transform: uppercase;
+    width: 100%;
+    margin-bottom: 2%;
+    padding: 3%;
+    box-sizing: border-box;
+    background-color:  $base-form-footer;
+    border: solid rgb(132, 132, 132) 1px;
+    input {
+        @extend form;
+        }
+    textarea {
+        @extend form;
+    }
+}
+
+#button {
+    max-width: 40%;
+    color: $color-button-form;
+}
+.mapa{
+    width: 320px;
+    height: 200px;
+}
+.jrfcoder {
+    text-align: center;
+}
